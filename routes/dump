@@ -1,0 +1,18 @@
+/*Route::get('/home', function () {
+    return "this is the /home page";
+});
+
+Route::get('/blog', function () {
+    return "this is the /blog page";
+});
+
+
+Route::redirect('/here','/there');
+
+Route::get('/home{name}',function($name)){
+    return "This is $name's /home page";
+});
+
+/*Route::get('user/{name?}', function ($name=null)){ //name could be "John"
+    return $name;
+})*/
